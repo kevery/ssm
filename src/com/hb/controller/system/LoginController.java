@@ -37,6 +37,7 @@ public class LoginController extends BaseController {
         PageData pd = new PageData();
         pd = this.getPageData();
         mv.setViewName("system/index/head");
+        System.out.println(1);
 
         mv.addObject("pd",pd);
         return mv;
